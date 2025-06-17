@@ -26,7 +26,8 @@ public class Message {
     }
 
     private String generateMessageId() {
-        return "MSG" + System.currentTimeMillis() % 10000;
+         long timePart = System.currentTimeMillis() % 10000;
+        return String.format("MSG%04d", timePart);
     }
 
     public String createMessageHash() {
