@@ -143,7 +143,7 @@ public class MessagingSystemGUI {
             
             int choice = JOptionPane.showOptionDialog(null,
                     "Welcome " + currentUser + "!",
-                    "QuickClick",
+                    "QuickChat",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,
